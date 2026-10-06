@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Exercises - w3resource</title>
+    <!-- Nhúng thư viện jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <p id="text">Đây là đoạn văn bản mẫu cần thay đổi style.</p>
+    
+    <button id="jsstyle">Submit</button>
+
+    <script>
+        $(document).ready(function() {
+            // Sự kiện click nút Submit bằng jQuery
+            $('#jsstyle').click(function() {
+                $('#text').css({
+                    'font-size': '24px',
+                    'font-family': 'Arial, sans-serif',
+                    'color': 'blue'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

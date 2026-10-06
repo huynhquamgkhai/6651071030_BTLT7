@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#text {
+    font-size: 16px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
